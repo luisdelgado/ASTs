@@ -1,9 +1,9 @@
 package visitor;
 
-import symboltable.SymbolTable;
-import symboltable.Class;
-import symboltable.Method;
-import symboltable.Variable;
+/*import symboltable.SymbolTable;
+//import symboltable.Class;
+//import symboltable.Method;
+import symboltable.Variable;*/
 import ast.And;
 import ast.ArrayAssign;
 import ast.ArrayLength;
@@ -41,7 +41,7 @@ import ast.While;
 
 public class BuildSymbolTableVisitor implements Visitor {
 
-	SymbolTable symbolTable;
+/*	SymbolTable symbolTable;
 
 	public BuildSymbolTableVisitor() {
 		symbolTable = new SymbolTable();
@@ -52,7 +52,7 @@ public class BuildSymbolTableVisitor implements Visitor {
 	}
 
 	private Class currClass;
-	private Method currMethod;
+	private Method currMethod;*/
 
 	// MainClass m;
 	// ClassDeclList cl;
