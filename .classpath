@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/Luís/Documents/Luís/CIn/5º periodo/IF688 Teo.Implemen.Ling. Computacionais/jflex-1.6.1/jflex-1.6.1/lib/jflex-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Luís/Documents/Luís/CIn/5º periodo/IF688 Teo.Implemen.Ling. Computacionais/java-cup-bin-11b-20151001/java-cup-11b.jar"/>
+	<classpathentry kind="lib" path="tools/java-cup-11b-runtime.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

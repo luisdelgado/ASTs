@@ -10,7 +10,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import ast.*;
 import visitor.*;
-import java_cup.runtime.XMLElement;
 
 /** CUP v0.11b 20150930 (SVN rev 66) generated parser.
 */
@@ -595,7 +594,7 @@ public final java_cup.runtime.Symbol CUP$parser$do_action_part00000000(
           {
             Object RESULT =null;
 
-            CUP$parser$result = parser.getSymbolFactory().newSymbol("Expression",7, ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), RESULT);
+            CUP$parser$result = parser.getSymbolFactory().newSymbol("Expression",7, ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), (Symbol) RESULT);
           }
         return CUP$parser$result;
 
@@ -712,7 +711,7 @@ public final java_cup.runtime.Symbol CUP$parser$do_action_part00000000(
           {
             Object RESULT =null;
 
-            CUP$parser$result = parser.getSymbolFactory().newSymbol("Expr",8, ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), RESULT);
+            CUP$parser$result = parser.getSymbolFactory().newSymbol("Expr",8, ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), (Symbol) RESULT);
           }
         return CUP$parser$result;
 

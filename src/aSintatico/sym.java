@@ -6,7 +6,7 @@ package aSintatico;
 //----------------------------------------------------
 
 /** CUP generated class containing symbol constants. */
-public class sym {
+public interface sym {
 /* terminals */
 public static final int FCHAVE = 34;
 public static final int NUMBER_DOUBLE = 45;

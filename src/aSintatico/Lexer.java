@@ -2,6 +2,8 @@
 
 package aSintatico;
 
+import java.io.InputStream;
+
 import java_cup.runtime.ComplexSymbolFactory;
 import java_cup.runtime.ComplexSymbolFactory.Location;
 import java_cup.runtime.Symbol;
@@ -372,7 +374,11 @@ public class Lexer implements sym, java_cup.runtime.Scanner {
   }
 
 
-  /** 
+  public Lexer(InputStream is) {
+	// TODO Auto-generated constructor stub
+}
+
+/** 
    * Unpacks the compressed character translation table.
    *
    * @param packed   the packed character translation table
@@ -764,7 +770,7 @@ public class Lexer implements sym, java_cup.runtime.Scanner {
             }
           case 49: break;
           case 5: 
-            { return symbolFactory.newSymbol("IDENTIFIER", IDENTIFIER, yytext();
+            { return symbolFactory.newSymbol("IDENTIFIER", IDENTIFIER, yytext());
             }
           case 50: break;
           case 6: 
@@ -864,8 +870,8 @@ public class Lexer implements sym, java_cup.runtime.Scanner {
             }
           case 74: break;
           case 30: 
-            { return symbolFactory.newSymbol("INT", INT);
-            }
+            //{ return symbolFactory.newSymbol("INT", INT);
+            //}
           case 75: break;
           case 31: 
             { return symbolFactory.newSymbol("MAIN", MAIN);
@@ -920,7 +926,7 @@ public class Lexer implements sym, java_cup.runtime.Scanner {
             }
           case 88: break;
           case 44: 
-            { return symbolFactory.newSymbol("BOOLEAN", BOOLEAN);;
+            { return symbolFactory.newSymbol("BOOLEAN", BOOLEAN);
             }
           case 89: break;
           case 45: 

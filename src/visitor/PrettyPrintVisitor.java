@@ -38,10 +38,6 @@ import ast.While;
 public class PrettyPrintVisitor implements Visitor {
 
 	// MainClass m;
-	//programa na forma de AST
-	Program prog = (Program)p.parse().value;
-	//chama o visitor de pretty print
-	prog.accept(new PrettyPrintVisitor());
 	// ClassDeclList cl;
 	public void visit(Program n) {
 		n.m.accept(this);
